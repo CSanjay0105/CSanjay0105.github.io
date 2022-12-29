@@ -220,7 +220,7 @@ img{
 }
 
 /*BUTTONS*/
-.button{
+.button {
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
@@ -229,8 +229,11 @@ img{
   border-radius: .5rem;
 }
 .button:hover{
-  box-shadow: 0 10px 36px rgba(0,0,0,.15);
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
 }
+
 .button__icon{
   font-size: 1rem;
 }
